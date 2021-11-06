@@ -23,7 +23,7 @@ void dfs(vector<vector<int>> & mat,vector<vector<int>> & visited,int i ,int j , 
  vector<vector<int>> updateMatrix(vector<vector<int>>& mat){
   int m =mat.size();
   int n = mat[0].size();
-  vector<vector<int>(n)>(m) v;
+  vector<vector<int>(n)>(m)  v;
   for(int i =0;i<m;i++)
      {
          for(int j=0;j<n;j++){
